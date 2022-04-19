@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
 }
 :root {
   --black: #333;
@@ -23,7 +24,7 @@ body {
   width: 300px;
   height: 100%;
   border-right: 1px solid rgba(0, 0, 0, 0.05);
-  background: var(--white);
+  background: var(--white2);
   display: flex;
   justify-content: center;
   align-items: center;
